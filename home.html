@@ -1,0 +1,56 @@
+<!-- ------------Home Page------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Music App | Home</title>
+</head>
+
+<body>
+    <div class="container-home">
+        <div class="music-container-home">
+            <div class="home-icon">
+                <i class="fa-solid fa-music music-home"></i>
+            </div>
+            <div class="musicName">
+                <marquee behavior="left" direction="">
+                    <p id="MusicNameHome">Tu Junooniyat</p>
+                </marquee>
+                <p class="unknown">Unknown</p>
+            </div>
+            
+            <!-- <div class="progress-bar">
+                <input type="range" class="range-btn">
+                <div class="play-icons">
+                    <i class="fa-solid fa-backward-fast"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-fast"></i>
+
+                </div>
+            </div> -->
+        </div>
+        <div class="bottom">
+            <div class="progress-bar">
+                <input type="range" class="range-btn" min="0" max="100" value="0" id="progressBar" >
+                <div class="play-icons">
+                    <i class="fa-solid fa-backward-fast" id="previous"></i>
+                    <i class="fa-solid fa-play" id="master"></i>
+                    <i class="fa-solid fa-forward-fast" id="next"></i>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

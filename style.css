@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dosis:wght@200&family=Heebo:wght@600&family=Josefin+Sans:wght@100;400&family=Lobster&family=Merriweather&family=Poppins:wght@300;400&family=Roboto+Slab:wght@100;400;500;700&family=Roboto:wght@300;400;500;700&family=Sansita+Swashed:wght@700&family=Style+Script&display=swap');
+
+
+/* ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+  } */
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: auto auto;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    /* background: linear-gradient(#d9a7c7,#fffcdc); */
+    /* background-color: red; */
+    /* background: url(images/pexels-gradienta-7130560.jpg); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-container {
+    /* background: linear-gradient(to right,#d9a7c7,#fffcdc); */
+    /* background: linear-gradient(to right, #ff9966, #ff5e62); */
+    /* background: linear-gradient(to right, #70e1f5,#ffd194); */
+    /* background-color: aliceblue; */
+    /* color: #fff; */
+    height: 60vh;
+    width: 90vw;
+}
+.heading {
+    text-align: center;
+    align-items: center;
+    margin-top: 24px;
+    /* font-size: 47px; */
+    font-weight: bold;
+}
+
+.heading1 {
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 2px;
+    padding: 12px 65px;
+    /* font-size: 35px; */
+}
+.list-container {
+    height: 40vh;
+    /* background-color: purple; */
+    /* overflow-y: scroll;  */
+  /* overflow-x: scroll;  */
+  padding-right: 9px;
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list {
+   list-style: none;
+}
+.list li {
+    padding: 9px 5px;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+.fa-music {
+  color: #fff;
+  background-color: rgb(197, 184, 184);
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0px 4px;
+}
+.music-item {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* --------------Home Page CSS------------- */
+
+.container-home {
+  margin: auto auto;
+  /* background: linear-gradient(to right, #70e1f5,#ffd194); */
+  /* background: linear-gradient(to right, #ff9966, #ff5e62); */
+  background: linear-gradient(to right,#d9a7c7,#fffcdc);
+  /* background-color: red; */
+  /* background: url(images/pexels-gradienta-7130560.jpg); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.music-container-home {
+  /* background: linear-gradient(to right,#d9a7c7,#fffcdc); */
+  /* background: linear-gradient(to right, #ff9966, #ff5e62); */
+  /* background: linear-gradient(to right, #70e1f5,#ffd194); */
+  /* background-color: aliceblue; */
+  /* background-color: blue; */
+  /* color: #fff; */
+  height: 70vh;
+  width: 90vw;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.home-icon {
+  text-align: center;
+  margin-top: 5vh;
+} 
+.music-home {
+  padding: 70px;
+  border-radius: 14px;
+  font-size: 100px;
+}
+.musicName {
+ margin: 24px 0px;
+ width: 90vw;
+}
+.unknown {
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+}
+.bottom {
+  height: 20vh;
+  width: 90vw;
+  /* background-color: red; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.progress-bar {
+  /* margin: 24px 0; */
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.range-btn {
+  height: 4px;
+  width: 100%;
+  /* color: #fff;
+  background-color: #555; */
+}
+input[type=range]{
+  /* -webkit-appearance: none; */
+ background-color: #555;
+ color: white;  
+}
+.play-icons {
+  margin-top: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.play-icons i {
+  margin-top: 2px;
+  font-size: 24px;
+  color: #fff;
+  padding: 0 7px;
+
+}
+
